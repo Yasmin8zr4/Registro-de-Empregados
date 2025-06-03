@@ -1,0 +1,11 @@
+.titulo{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 98.5vw;
+    font-size: 80px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
