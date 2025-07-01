@@ -1,12 +1,14 @@
-import Pokedex from "../../components/Pokedex"
-import PokemonCards from "../../components/PokemonCard"
+
+import Table from "../../components/Table"
+import Title from "../../components/tITLE"
 import "./styles.css"
 
 function Home(){
     return(
         <div className="home">
-            <div className="titulo">POKEDEX</div>
-            <Pokedex/>
+            <Title/>
+            <h1>Registro de Empregados</h1>
+            <Table/>
         </div>
     )
 }
