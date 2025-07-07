@@ -1,9 +1,11 @@
+import Add from "../Buttons/Add"
+import Buttons from "../Buttons/Edit"
 import "./styles.css"
 
 function Table(){
     return(
         <div className="total">
-            <button className="add">Adicionar Novo Empregado</button>
+            <Add/>
             <table class="table table-bordered">
 
               <thead>
@@ -23,10 +25,7 @@ function Table(){
                   <td>Rakesh</td>
                   <td>2345</td>
                   <td>IT</td>
-                  <td>
-                    <button className="action edit">Edit</button>
-                    <button className="action delete">Delete</button>
-                  </td>
+                  <Buttons/>
                 </tr>
 
                 <tr>
@@ -34,10 +33,7 @@ function Table(){
                   <td>Priyanka</td>
                   <td>2500</td>
                   <td>HR</td>
-                  <td>
-                    <button className="action edit">Edit</button>
-                    <button className="action delete">Delete</button>
-                  </td>
+                  <Buttons/>
                 </tr>
 
                 <tr>
@@ -45,10 +41,7 @@ function Table(){
                   <td>Anurag</td>
                   <td>4500</td>
                   <td>Sales</td>
-                  <td>
-                    <button className="action edit">Edit</button>
-                    <button className="action delete">Delete</button>
-                  </td>
+                  <Buttons/>
                 </tr>
 
               </tbody>
