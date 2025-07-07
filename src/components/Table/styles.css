@@ -2,7 +2,10 @@
     margin: 50px;
     margin-top: 20px;
     width: 89vw;
+}
 
+th[scope="row"]{
+    font-weight: 490;
 }
 
 
